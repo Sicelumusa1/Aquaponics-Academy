@@ -8,7 +8,7 @@
 /* Use picture for background on small screens*/
 @media (max-width:768px) {
   body {
-    background: url(images/deadfish-1450334424-612x612.webp) center center fixed;
+    background: url(images/hand-7986788_640.jpg) center center fixed;
     background-size: cover;
   }
   #bg-video {
@@ -99,6 +99,9 @@ body {
   .carousel-inner h3 {
     font-size: 23px;
   }
+  .nav-item {
+    border-right: none;
+  }
 }
 @media (max-width:400px) {
   .carousel-inner .carousel-item img {
@@ -106,9 +109,6 @@ body {
   }
   .carousel-inner h3 {
     font-size: 17px;
-  }
-  .navbar-brand {
-    font-size: 12;
   }
 }
 /*footer styling*/
@@ -142,12 +142,12 @@ body {
 .navbar-custom .navbar-text {
   color: #2bc0c9;
 }
-.navbar-custom .navbar-nav > li:last-child > a {
+/* .navbar-custom .navbar-nav > li:last-child > a {
   border-right: 1px solid #bedcdc;
-}
+} */
 .navbar-custom .navbar-nav > li > a {
   color: #2bc0c9;
-  border-left: 1px solid #bedcdc;
+  /* border-left: 1px solid #bedcdc; */
 }
 .navbar-custom .navbar-nav > li > a:hover,
 .navbar-custom .navbar-nav > li > a:focus {
